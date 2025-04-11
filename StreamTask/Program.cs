@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using StreamTask.Models;
 
 namespace StreamTask
 {
@@ -53,6 +52,7 @@ namespace StreamTask
             return names.Exists(predicate);
         }
 
+
         public static void Delete(int index)
         {
             if (!File.Exists(file_path))
@@ -64,12 +64,26 @@ namespace StreamTask
             string text = File.ReadAllText(file_path);
             List<string> names = JsonConvert.DeserializeObject<List<string>>(text);
 
-            names.RemoveAt(index);
-            Console.WriteLine($"{names[index]} silindi.");
+            if (names.Count == 0)
+            {
+                Console.WriteLine("Json fayli boshdur.");
+                return;
+            }
 
-            string updatedText = JsonConvert.SerializeObject(names);
-            File.WriteAllText(file_path, updatedText);
+            if (index < 0 || index >= names.Count)
+            {
+                Console.WriteLine("Index out of range");
+                return;
+            }
+
+            Console.WriteLine($"{names[index]} siyahidan silindi");
+            names.RemoveAt(index);
+
+            string updatedJson = JsonConvert.SerializeObject(names);
+            File.WriteAllText(file_path, updatedJson);
+
         }
+
     }
 }
 /*StreamWriter, StreamReader, Serialize, Deserialize

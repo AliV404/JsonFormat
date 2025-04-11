@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ali\\source\\repos\\StreamTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|c:\\users\\ali\\source\\repos\\streamtask\\streamtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|solutionrelative:streamtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|c:\\users\\ali\\source\\repos\\streamtask\\streamtask\\files\\names.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|solutionrelative:streamtask\\files\\names.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|c:\\users\\ali\\source\\repos\\streamtask\\streamtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F02833-A0D0-43B9-B94A-EB2509F06C62}|StreamTask\\StreamTask.csproj|solutionrelative:streamtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +26,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\source\\repos\\StreamTask\\StreamTask\\Program.cs",
               "RelativeDocumentMoniker": "StreamTask\\Program.cs",
               "ToolTip": "C:\\Users\\Ali\\source\\repos\\StreamTask\\StreamTask\\Program.cs",
               "RelativeToolTip": "StreamTask\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T18:26:30.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Names.json",
               "DocumentMoniker": "C:\\Users\\Ali\\source\\repos\\StreamTask\\StreamTask\\Files\\Names.json",
               "RelativeDocumentMoniker": "StreamTask\\Files\\Names.json",

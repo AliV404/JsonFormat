@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24640263da0642102acb735255cc0b9ff171bdae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfef08b9e79c75a5b51c3afd9ab8342dfc9a5e9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
