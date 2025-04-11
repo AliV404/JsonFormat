@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PERHOd44IOc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ali\\source\\repos\\StreamTask\\StreamTask\\StreamTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
